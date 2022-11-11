@@ -12,7 +12,7 @@
 ####    - Does not use live share chat ( It can possible with SignalR. `Official tutorial`[https://learn.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-7.0&tabs=visual-studio] )
 ####    - Due to timelimit does not added search functionality
 
-# Application is Created & Verified by me.
-# All Rights resevered November 2022 by jevin08
-
 Thank you for support @jaysohagiya54
+
+Application is Created & Verified by me.
+##### All Rights resevered November 2022 by jevin08

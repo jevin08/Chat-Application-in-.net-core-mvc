@@ -1,0 +1,74 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 0;
+}
+
+.message-card-right {
+    max-width: 90%;
+    background: #92a9e9;
+    /*    width: fit-content;*/
+    border-radius: 4px;
+    overflow: auto;
+    margin-bottom: 3px;
+    margin-right: 8px;
+    padding: 0px 6px 0px 6px;
+}
+.message-card-left {
+    max-width: 90%;
+    overflow: auto;
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 0px 8px 0px 8px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+div.message-card-right div.message-card-title {
+    font-size: 10px;
+    width: 100%;
+    text-align: right;
+}
+div.message-card-left div.message-card-title {
+    font-size: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.message-card-body {
+/*    max-inline-size: 60%;*/
+    overflow-wrap: break-word;
+    margin: 0px 0px 0px 0px;
+}
+
+.col-message-box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+.row-header {
+    flex: 0 1 auto;
+}
+.row-content {
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+    max-height: auto;
+    flex: 1 1 auto;
+    max-width: 100%;
+    max-height: inherit;
+}
+.row-footer {
+    flex: 0 1 40px;
+}
